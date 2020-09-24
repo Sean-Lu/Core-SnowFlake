@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sean.Core.SnowFlake", "src\Sean.Core.SnowFlake\Sean.Core.SnowFlake.csproj", "{137538EC-A26F-429D-88F3-E223CBC00F34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2D463EDB-131E-45FE-B75F-A23BABABF65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.NetCore", "test\Demo.NetCore\Demo.NetCore.csproj", "{D39AA6DF-365B-414B-A52D-45FE3EAD2788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{137538EC-A26F-429D-88F3-E223CBC00F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137538EC-A26F-429D-88F3-E223CBC00F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137538EC-A26F-429D-88F3-E223CBC00F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137538EC-A26F-429D-88F3-E223CBC00F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39AA6DF-365B-414B-A52D-45FE3EAD2788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39AA6DF-365B-414B-A52D-45FE3EAD2788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39AA6DF-365B-414B-A52D-45FE3EAD2788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39AA6DF-365B-414B-A52D-45FE3EAD2788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D39AA6DF-365B-414B-A52D-45FE3EAD2788} = {2D463EDB-131E-45FE-B75F-A23BABABF65D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EC2ABC9-574F-442E-86F7-BB5614D30EB1}
+	EndGlobalSection
+EndGlobal
