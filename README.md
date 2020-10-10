@@ -1,4 +1,4 @@
-## 雪花算法(SnowFlake)
+## 简介：雪花算法(SnowFlake)
 
 > `SnowFlake`是`Twitter`开源的分布式ID生成算法。其核心思想就是：使用一个64位的long类型的数字作为全局唯一id。
 
@@ -31,3 +31,17 @@ snowflake现在有较好的改良方案，比如美团点评开源的分布式ID
 ```
 
 - 使用场景：主要用于分布式系统中，生成全局唯一的id，如：订单号等。
+
+## Nuget包引用
+
+> **Id：Sean.Core.SnowFlake**
+
+- Package Manager
+
+```
+PM> Install-Package Sean.Core.SnowFlake
+```
+
+## 使用示例
+
+> 项目：test\Demo.NetCore

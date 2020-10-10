@@ -7,6 +7,7 @@
     <Authors>Sean</Authors>
     <Company>Sean Studio</Company>
     <Description>全局唯一id生成器，基于Twitter开源的雪花算法(SnowFlake)。</Description>
+    <PackageProjectUrl>https://github.com/Sean-Lu/Core-SnowFlake.git</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
