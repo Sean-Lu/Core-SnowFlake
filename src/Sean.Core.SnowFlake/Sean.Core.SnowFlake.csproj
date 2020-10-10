@@ -1,13 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net4;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net4;netstandard1.3</TargetFrameworks>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Sean</Authors>
     <Company>Sean Studio</Company>
     <Description>全局唯一id生成器，基于Twitter开源的雪花算法(SnowFlake)。</Description>
     <PackageProjectUrl>https://github.com/Sean-Lu/Core-SnowFlake.git</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
