@@ -5,7 +5,7 @@
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Sean</Authors>
-    <Company>Sean Studio</Company>
+    <Copyright>Copyright © 2020 Sean</Copyright>
     <Description>全局唯一id生成器，基于Twitter开源的雪花算法(SnowFlake)。</Description>
     <PackageProjectUrl>https://github.com/Sean-Lu/Core-SnowFlake.git</PackageProjectUrl>
     <Version>1.0.1</Version>
