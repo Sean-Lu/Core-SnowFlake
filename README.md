@@ -32,6 +32,12 @@ snowflake现在有较好的改良方案，比如美团点评开源的分布式ID
 
 - 使用场景：主要用于分布式系统中，生成全局唯一的id，如：订单号等。
 
+## Packages
+
+| Package | NuGet Stable | NuGet Pre-release | Downloads |
+| ------- | ------------ | ----------------- | --------- |
+| [Sean.Core.SnowFlake](https://www.nuget.org/packages/Sean.Core.SnowFlake/) | [![Sean.Core.SnowFlake](https://img.shields.io/nuget/v/Sean.Core.SnowFlake.svg)](https://www.nuget.org/packages/Sean.Core.SnowFlake/) | [![Sean.Core.SnowFlake](https://img.shields.io/nuget/vpre/Sean.Core.SnowFlake.svg)](https://www.nuget.org/packages/Sean.Core.SnowFlake/) | [![Sean.Core.SnowFlake](https://img.shields.io/nuget/dt/Sean.Core.SnowFlake.svg)](https://www.nuget.org/packages/Sean.Core.SnowFlake/) |
+
 ## Nuget包引用
 
 > **Id：Sean.Core.SnowFlake**
